@@ -28,3 +28,17 @@ A personal, browser-based learning arcade. Play short quizzes and practical chal
 - Google Fonts are loaded from Google when internet access is available; the site uses fallback fonts if not.
 - This is a functional starter release. Review educational content and expand question banks as you use it.
 - Clear browser site data to reset saved progress.
+
+
+## Version 3.0 additions
+- SpeakUp Voice Coach: microphone speech-to-text where supported and browser text-to-speech for prompts; typed fallback always available.
+- Mock Interview Arena: multi-question interview practice with a structured local feedback checklist.
+- Excel Formula Playground: sample spreadsheet data and a safe mini formula evaluator for SUM, AVERAGE, MIN, MAX, COUNT and SUMIF.
+- SQL Query Lab: sample orders database and a constrained SELECT sandbox supporting WHERE equality, ORDER BY, LIMIT and GROUP BY with SUM/AVG/COUNT.
+- Startup Tycoon: four-round business management simulation with cash, demand, service quality and customer trust metrics.
+
+## Browser compatibility
+- Core website and labs work in modern browsers without a backend.
+- Voice capture uses the browser Web Speech API where available (typically Chrome/Edge with microphone permission). If unavailable, type your response instead.
+- Voice feedback is a local checklist, not an AI assessment or pronunciation/accent scoring.
+- SQL and spreadsheet tools intentionally support a limited teaching subset, not full Excel or a production database.
